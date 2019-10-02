@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Selectors</title>
+        <link href="selectorsQuiz.css" rel="stylesheet" />
+    </head>
+    <!--
+        How would you write a selector to select the following?
+            1. All elements with class "select-me"
+            2. Only div elements with class "select-me"
+            3. Only the div element with the class "highlight"
+            4. All elements with the class "select-me" AND the class "highlight"
+            5. All list items under "special-list"
+            6. Only the list item under "special-list" with the class "select-me"
+            7. Only the span with class "select-me" under the list item with
+              class "highlight" under the "special-list"
+    -->
+    <body>
+        <div id="special-div" class="select-me">...</div>
+        <div class="select-me highlight">...</div>
+        <p id="special-p" class="select-me">...</p>
+        <p class="select-me highlight">...</p>
+        <ul>
+            <li class="select-me"><span>...</span></li>
+            <li class="highlight"><span class="select-me">...</span></li>
+        </ul>
+        <ul id="special-list">
+            <li class="select-me"><span>...</span></li>
+            <li class="highlight"><span class="select-me">...</span></li>
+        </ul>
+    </body>
+</html>
