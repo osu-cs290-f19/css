@@ -1,0 +1,15 @@
+div {
+  border: 2px solid black;
+}
+
+p {
+  background-color: salmon;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.italics-text {
+  font-style: italic;
+}
