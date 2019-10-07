@@ -13,3 +13,23 @@ p {
 .italics-text {
   font-style: italic;
 }
+
+#special-div {
+  border: 10px dashed magenta;
+}
+
+p.bold-text {
+  font-size: 50px;
+}
+
+#special-div .deeply-nested {
+  font-family: monospace;
+}
+
+* {
+
+}
+
+p, div {
+
+}
