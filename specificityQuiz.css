@@ -1,0 +1,61 @@
+/*
+ * What will be the text color of the <div> element with class "class-1"?
+ */
+
+div {
+  color: black;
+}
+
+div.class-1 {
+  color: orange;
+}
+
+/*
+ * What will be the background color of the <div> element with class "inner-2"?
+ */
+
+div.inner-2 {
+  background-color: blue;
+}
+
+.outer-1 .inner-2 {
+  background-color: lightgray
+}
+
+/*
+ * What will be the background color of the <div> element with id "special-div-1"?
+ */
+
+#special-div-1 {
+  background-color: blue;
+}
+
+.outer-2 .inner-3 .inner-4 {
+  background-color: lightgray;
+}
+
+/*
+ * What will be the background color of the <div> element with id "special-div-2"?
+ */
+
+.outer-3 #special-div-2 {
+  background-color: blue;
+}
+
+#special-div-2.inner-6 {
+  background-color: lightgray;
+}
+
+
+
+/*
+ * What will be the background color of the <div> element with id "special-div-2"?
+ */
+
+#special-div-3 {
+  background-color: blue;
+}
+
+#special-div-3.inner-8 {
+  background-color: lightgray;
+}

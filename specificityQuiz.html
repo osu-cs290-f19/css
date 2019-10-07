@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Specificity quiz</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="class-1">
+      This is a div.
+    </div>
+
+    <div class="outer-1">
+      <div class="inner-1">
+        <div class="inner-2">
+          This is a div.
+        </div>
+      </div>
+    </div>
+
+    <div class="outer-2">
+      <div class="inner-3">
+        <div class="inner-4" id="special-div-1">
+          This is a div.
+        </div>
+      </div>
+    </div>
+
+    <div class="outer-3">
+      <div class="inner-5">
+        <div class="inner-6" id="special-div-2">
+          This is a div.
+        </div>
+      </div>
+    </div>
+
+    <div class="outer-4">
+      <div class="inner-7">
+        <div class="inner-8" id="special-div-3" style="background-color: orange;">
+          This is a div.
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
