@@ -31,3 +31,14 @@ p {
 .inner.unpositioned {
   background-color: #ababab;
 }
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  /* right: 100px; */
+}
