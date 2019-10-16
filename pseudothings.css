@@ -1,3 +1,38 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+
+a:hover {
+  background-color: yellow;
+}
+
+.hoverable:hover {
+  font-weight: bold;
+}
+
+a:focus {
+  font-size: 20px;
+}
+
+a::after {
+  content: "↗";
+  font-size: 8px;
+  margin-left: 10px;
+}
+
+p::first-letter {
+  font-size: 50px;
+  font-family: cursive;
+}
+
+.advanced {
+  width: 300px;
+  /* height: 300px; */
+  border: 1px solid gray;
+  margin: 50px;
+  padding: 25px;
+  box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  /* border-radius: 50%; */
+  cursor: pointer;
+}
