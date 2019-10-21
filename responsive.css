@@ -10,6 +10,7 @@ a, a:hover {
 }
 
 header h1 {
+  font-size: 72px;
   margin: 5px;
   font-weight: 300;
 }
@@ -37,4 +38,24 @@ header h1 {
 
 .right {
   float: right;
+}
+
+@media(max-width: 800px) {
+  .navbar {
+    background-color: red;
+  }
+}
+
+@media(max-width: 640px) {
+  header h1 {
+    font-size: 48px;
+  }
+
+  .navitem {
+    display: block;
+  }
+
+  .right {
+    float: none;
+  }
 }
